@@ -1,23 +1,23 @@
-<%@ taglib uri="http://www.makumba.org/presentation" prefix="mak" %>
 <html>
 <head>
-<title>Hello world!</title>
+<style>
+body  {
+  background-image: url("paper.gif");
+  background-color: #cccccc;
+}
+</style>
 </head>
 <body>
+<h1 style="background-color:orange;">WELCOME TO MEESEVA CENTER UYYALAWADA</h1>
+<h1 style="background-color:white;">All Meeseva Services & Online Services apply here,</h1>
+<p style="background-color:green;">
 
-<h1>Create a new person</h1>
-<mak:newForm type="general.Person" action="index.jsp">
-Name: <mak:input field="name" /><br/>
-Surname: <mak:input field="surname" />
-<mak:submit/>
-</mak:newForm>
+Contact us: G.V.Ramana Cell NO:9441053373
+</p>
 
-<h1>List of persons</h1>
-<mak:list from="general.Person p">
-  <mak:value expr="p.name + ' ' + p.surname" /><br/>
-</mak:list>
+<a href="https://ibb.co/yBTKDZJ"><img src="https://i.ibb.co/rfPqgzJ/meeseva-2.jpg" alt="meeseva-2" border="10"></a>
 
-<br />
-<a href="index.jspx">View source</a>
+<h1 style="background-color:red;">Adress: Uyyalawada Village (Vil & Mdl) Nandyal Dist A.P</h1>
+
 </body>
 </html>
