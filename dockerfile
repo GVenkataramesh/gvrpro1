@@ -1,6 +1,6 @@
 FROM centos
 MAINTAINER gvenkataramesh <gvr69999@gmail.com>
-RUN yum update -y
+RUN yum update
 RUN touch /opt/file1
 RUN yum install git -y
 RUN git config --global user.name "GVenkataramesh"
