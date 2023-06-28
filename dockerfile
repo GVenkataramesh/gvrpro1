@@ -1,4 +1,4 @@
-FROM tomcat
+FROM ubuntu
 MAINTAINER gvenkataramesh <gvr69999@gmail.com>
 RUN apt-get update -y
 RUN touch /opt/file1
